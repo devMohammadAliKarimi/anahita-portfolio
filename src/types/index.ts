@@ -1,18 +1,18 @@
 export interface MenuItem {
     title: string;
     url: string;
-};
+}
+
+export interface IAnimatedLinkProps {
+    href: string;
+    title: string;
+    subtitle: string;
+}
 
 export interface IDecoratedSectionProps {
     children: React.ReactNode;
     className?: string;
     showLine?: boolean;
-};
-
-export interface IAnimatedLinkProps {
-    href: string;
-    title: string;
-    subtitle: string
 }
 
 export interface IButtonProps {
@@ -21,20 +21,28 @@ export interface IButtonProps {
     className?: string;
 }
 
-export interface IGalleryImage {
+export interface IImage {
     id: number;
     src: string;
     alt: string;
 }
 
-export interface IGalleryCardProps {
-    image: IGalleryImage;
-    onClick: () => void
+export interface IImageCardProps {
+    image: IImage;
+    onClick: () => void;
+    aspectRatio?: "video" | "square" | "auto";
 }
 
 export interface ILightboxProps {
-    image: IGalleryImage;
-    onClose: () => void
+    image: IImage;
+    onClose: () => void;
+    aspectRatio?: "video" | "square" | "auto";
+}
+
+export interface IImageGridClientProps {
+    images: IImage[];
+    columns?: 1 | 2 | 3;
+    aspectRatio?: IImageCardProps["aspectRatio"];
 }
 
 export interface IProjectCardProps {
@@ -45,3 +53,6 @@ export interface IProjectCardProps {
     buttonLabel: string;
     slug: string;
 }
+
+export type IGalleryImage = IImage;
+export type IGalleryCardProps = IImageCardProps;
