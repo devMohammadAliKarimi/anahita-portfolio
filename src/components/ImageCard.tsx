@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 import { IImageCardProps } from "@/types";
 
 const aspectMap = {
-    video: "aspect-video",
-    square: "aspect-square",
+    video: "relative aspect-video",
+    square: "relative aspect-square",
     auto: "relative",
 };
 

@@ -13,6 +13,7 @@ export interface IDecoratedSectionProps {
     children: React.ReactNode;
     className?: string;
     showLine?: boolean;
+    lineClassName?: string;
 }
 
 export interface IButtonProps {
@@ -34,8 +35,11 @@ export interface IImageCardProps {
 }
 
 export interface ILightboxProps {
-    image: IImage;
+    images: IImage[];
+    currentIndex: number;
     onClose: () => void;
+    onNext: () => void;
+    onPrev: () => void;
     aspectRatio?: "video" | "square" | "auto";
 }
 
@@ -55,4 +59,5 @@ export interface IProjectCardProps {
 }
 
 export type IGalleryImage = IImage;
+
 export type IGalleryCardProps = IImageCardProps;

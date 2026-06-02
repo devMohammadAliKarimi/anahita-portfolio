@@ -12,7 +12,7 @@ const BeyondMarketing = () => {
                     Outside of my professional work, I enjoy drawing and creative
                     expression, attending classical concerts, hiking in nature, and
                     exploring new cultures that bring fresh perspectives to my work.
-                    I'm also always open to connecting with others, exploring new opportunities,
+                    I&apos;m also always open to connecting with others, exploring new opportunities,
                     and collaborating on projects that bring creativity and strategy together.
                 </p>
             </div>

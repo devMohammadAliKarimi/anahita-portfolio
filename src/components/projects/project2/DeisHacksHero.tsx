@@ -2,7 +2,7 @@ import DecoratedSection from "@/components/DecoratedSection";
 
 const DeisHacksHero = () => {
     return (
-        <DecoratedSection>
+        <DecoratedSection lineClassName="top-8 h-16 md:top-16">
             <div className="mx-auto max-w-6xl px-6 md:px-16 pt-8 md:pt-14 pb-10 md:pb-16">
 
                 <h2 className="text-dark/65 font-bold text-lg md:text-2xl w-full tracking-wide">
@@ -15,8 +15,8 @@ const DeisHacksHero = () => {
 
                 <div className="flex flex-col gap-4 max-w-5xl">
                     <p className="text-dark/60 font-light text-sm md:text-xl leading-relaxed">
-                        This project was part of the course "Leadership Internships in Social Impact
-                        Organizations (BUS 297C)", where students were selected and matched with
+                        This project was part of the course &quot;Leadership Internships in Social Impact
+                        Organizations (BUS 297C)&quot;, where students were selected and matched with
                         nonprofit partners based on their background and experience. I was assigned
                         to work with the Charles River Museum of Industry &amp; Innovation (CRMII)
                         to define a high-impact challenge for the DeisHacks 2026 competition.
@@ -29,7 +29,7 @@ const DeisHacksHero = () => {
                         experience, and community engagement.
                     </p>
                     <p className="text-dark/60 font-light text-sm md:text-xl leading-relaxed">
-                        The project began with research and interviews to understand CRMII's mission,
+                        The project began with research and interviews to understand CRMII&apos;s mission,
                         audience, and key challenges. Based on this process, I defined three core
                         problem areas to guide the competition: 1. Finding the Museum &amp; First
                         Impressions, 2. Big Story, Hidden Museum, and 3. Interactive MakerSpace in
@@ -39,10 +39,10 @@ const DeisHacksHero = () => {
                     </p>
                     <p className="text-dark/60 font-light text-sm md:text-xl leading-relaxed">
                         I translated these insights into clear and focused problem statements (pinpoints),
-                        taking ownership of shaping the challenge and aligning the nonprofit's needs
+                        taking ownership of shaping the challenge and aligning the nonprofit&apos;s needs
                         with the competition structure. To deepen engagement, I coordinated an on-site
                         museum experience, where museum staff led the tour, allowing participants to
-                        better understand CRMII's context, audience, and challenges.
+                        better understand CRMII&apos;s context, audience, and challenges.
                     </p>
                     <p className="text-dark/60 font-light text-sm md:text-xl leading-relaxed">
                         During the 48-hour hackathon, I represented CRMII among multiple nonprofit
@@ -50,7 +50,7 @@ const DeisHacksHero = () => {
                         competitive environment (9 nonprofit partners, ~145 participants), even under
                         challenging winter conditions. I then led and mentored a student team, guiding
                         their problem-solving approach, maintaining focus under time constraints, and
-                        ensuring alignment with the organization's goals. The team developed a strong,
+                        ensuring alignment with the organization&apos;s goals. The team developed a strong,
                         practical solution and was recognized with the <strong>Best Non-Technical Solution</strong> award.
                     </p>
                     <p className="text-dark/60 font-light text-sm md:text-xl leading-relaxed">

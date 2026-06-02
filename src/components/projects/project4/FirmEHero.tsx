@@ -2,7 +2,7 @@ import DecoratedSection from "@/components/DecoratedSection";
 
 const FirmEHero = () => {
     return (
-        <DecoratedSection>
+        <DecoratedSection lineClassName="top-8 h-16 md:top-16">
             <div className="mx-auto max-w-6xl px-6 md:px-16 pt-8 md:pt-14 pb-10 md:pb-16">
 
                 <h2 className="text-dark/65 font-bold text-lg md:text-2xl w-full tracking-wide">
@@ -29,7 +29,7 @@ const FirmEHero = () => {
                         consistent brand strategy over time.
                     </p>
                     <p className="text-dark/60 font-light text-sm md:text-xl leading-relaxed">
-                        This project follows our team's management of Firm E over a 9-year competitive
+                        This project follows our team&apos;s management of Firm E over a 9-year competitive
                         automotive simulation, where we made weekly strategic decisions while competing
                         against four other firms, with Firm A and Firm B as our main competitors. The
                         simulation required us to manage a full marketing strategy, including product

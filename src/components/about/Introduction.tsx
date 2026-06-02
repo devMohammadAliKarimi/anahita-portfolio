@@ -3,7 +3,7 @@ import DecoratedSection from "../DecoratedSection";
 
 const Introduction = () => {
     return (
-        <DecoratedSection>
+        <DecoratedSection lineClassName="top-28 h-36 md:top-40 md:h-60">
             <div className="flex flex-col items-center md:items-start gap-8 mx-auto max-w-6xl px-6 md:px-16 pb-14 md:pb-20 pt-8 md:pt-14">
 
                 <h2 className="text-white font-bold text-4xl md:text-6xl text-center md:text-center w-full tracking-wide">
@@ -26,7 +26,7 @@ const Introduction = () => {
 
                 <div className="text-center md:text-left max-w-[43rem]">
                     <p className="text-white italic font-normal text-xl md:text-4xl leading-relaxed">
-                        "The aim of marketing is to know & understand the customer so well the product or service fits him and sells itself."
+                        {`"The aim of marketing is to know & understand the customer so well the product or service fits him and sells itself."`}
                     </p>
                     <span className="block mt-2 text-white text-xs md:text-base font-normal not-italic">
                         Peter Drucker
@@ -34,7 +34,7 @@ const Introduction = () => {
                 </div>
 
                 <p className="text-dark/60 font-light text-sm md:text-xl leading-relaxed text-center md:text-left max-w-5xl">
-                    Inspired by this philosophy, Anahita Mouni is a marketer and creative
+                    {`Inspired by this philosophy, Anahita Mouni is a marketer and creative
                     strategist with a background in graphic design and over a decade of experience.
                     Her journey as an immigrant shaped her resilience & adaptability, fueling her
                     passion for blending design thinking with data-driven insights to craft meaningful
@@ -42,7 +42,7 @@ const Introduction = () => {
                     Brandeis International Business School, while consulting in digital marketing
                     and coordinating marketing projects. Looking ahead, she is eager to continue
                     growing as a strategist, creating innovative brand experiences that inspire
-                    audiences, foster connection, and drive measurable impact.
+                    audiences, foster connection, and drive measurable impact.`}
                 </p>
 
             </div>

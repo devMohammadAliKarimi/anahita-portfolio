@@ -2,7 +2,7 @@ import DecoratedSection from "../DecoratedSection";
 
 const ProjectsHero = () => {
     return (
-        <DecoratedSection>
+        <DecoratedSection lineClassName="top-24 h-16 md:top-40 md:h-52">
             <div className="mx-auto max-w-6xl px-6 md:px-16 pt-8 md:pt-14 pb-10 md:pb-16">
                 <h2 className="text-white font-bold text-4xl md:text-6xl text-center w-full tracking-wide mb-8 md:mb-12">
                     Projects

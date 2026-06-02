@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
-import { IImage, IImageGridClientProps } from "@/types";
+import { IImageGridClientProps } from "@/types";
 import ImageCard from "./ImageCard";
 import LightboxImage from "./LightboxImage";
 
@@ -13,27 +13,33 @@ const colsMap = {
 };
 
 const ImageGridClient = ({ images, columns = 2, aspectRatio = "video" }: IImageGridClientProps) => {
-    const [selectedImage, setSelectedImage] = useState<IImage | null>(null);
+    const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+
+    const handlePrev = () => setSelectedIndex((i) => (i !== null && i > 0 ? i - 1 : i));
+    const handleNext = () => setSelectedIndex((i) => (i !== null && i < images.length - 1 ? i + 1 : i));
 
     return (
         <>
             <div className={`grid ${colsMap[columns]} gap-3 md:gap-4`}>
-                {images.map((image) => (
+                {images.map((image, index) => (
                     <ImageCard
                         key={image.id}
                         image={image}
                         aspectRatio={aspectRatio}
-                        onClick={() => setSelectedImage(image)}
+                        onClick={() => setSelectedIndex(index)}
                     />
                 ))}
             </div>
 
             <AnimatePresence>
-                {selectedImage && (
+                {selectedIndex !== null && (
                     <LightboxImage
-                        image={selectedImage}
+                        images={images}
+                        currentIndex={selectedIndex}
                         aspectRatio={aspectRatio}
-                        onClose={() => setSelectedImage(null)}
+                        onClose={() => setSelectedIndex(null)}
+                        onPrev={handlePrev}
+                        onNext={handleNext}
                     />
                 )}
             </AnimatePresence>
