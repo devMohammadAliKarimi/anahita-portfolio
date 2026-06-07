@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Footer from "@/components/Footer";
 import TopBar from "@/components/TopBar";
+import { getSiteUrl } from "@/lib/site";
 import "./globals.css";
 
 const myriad = localFont({
@@ -31,6 +32,7 @@ const myriad = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(getSiteUrl()),
   title: "Anahita Mouni — Portfolio",
   description:
     "Bringing marketing to life through creativity & strategy. Portfolio of Anahita Mouni.",

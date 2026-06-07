@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Anahita Mouni — Portfolio
 
-## Getting Started
+A personal portfolio site for **Anahita Mouni**, a marketing & creative professional —
+"Bringing marketing to life through creativity & strategy." Built with the
+Next.js App Router, it showcases her work, résumé, gallery, and case-study projects,
+and includes a working contact form backed by Mailtrap.
 
-First, run the development server:
+## Tech stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **[Next.js 14](https://nextjs.org)** (App Router) + **React 18** + **TypeScript**
+- **[Tailwind CSS](https://tailwindcss.com)** for styling (custom `cream`/`dark` theme)
+- **[Framer Motion](https://www.framer.com/motion/)** for animations
+- **[lucide-react](https://lucide.dev)** icons
+- **[Mailtrap](https://mailtrap.io)** for contact-form email delivery
+- Self-hosted **Myriad Pro** font via `next/font/local`
+
+## Project structure
+
+```
+src/
+├── app/
+│   ├── page.tsx              # Home (Hero, Explore Work, Milestones)
+│   ├── about-me/             # About — intro, approach, core beliefs
+│   ├── resume-cv/            # Résumé / CV
+│   ├── gallery/              # Image gallery + honors & awards
+│   ├── projects/             # Projects index + 4 case-study pages
+│   │   ├── project-1/        #   Charles River Museum
+│   │   ├── project-2/        #   DeisHacks
+│   │   ├── project-3/        #   Rivian
+│   │   └── project-4/        #   FirmE
+│   ├── contact-me/           # Contact form page
+│   ├── api/contact/route.ts  # Contact form POST handler (Mailtrap)
+│   ├── layout.tsx            # Root layout (TopBar, Footer, fonts, metadata)
+│   ├── sitemap.ts            # Generated sitemap.xml
+│   └── robots.ts             # Generated robots.txt
+├── components/               # UI components, grouped by page/feature
+├── lib/
+│   ├── data.ts               # Static content (menu, beliefs, honors, …)
+│   ├── mailtrap.ts           # Mailtrap client + config resolution
+│   ├── validation.ts         # Contact-form validation
+│   ├── site.ts               # Canonical site URL resolution
+│   └── cn.ts                 # Tailwind class merge helper
+├── types/                    # Shared TypeScript types
+└── fonts/                    # Myriad Pro font files
+public/                       # Images, videos, SVGs
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Getting started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Install dependencies and run the dev server:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev
+```
 
-## Learn More
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-To learn more about Next.js, take a look at the following resources:
+### Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Production build |
+| `npm run start` | Run the production build |
+| `npm run lint` | Lint with ESLint |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Environment variables
 
-## Deploy on Vercel
+The contact form and SEO metadata are configured via environment variables.
+Copy [.env.example](.env.example) to `.env.local` and fill in the values:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Variable | Required | Notes |
+| --- | --- | --- |
+| `MAILTRAP_API_TOKEN` | yes | From Mailtrap → Sending (or Email Testing for sandbox). |
+| `MAILTRAP_SENDER_EMAIL` | yes | The "from" address (free tier: a Mailtrap demo domain). |
+| `MAILTRAP_SENDER_NAME` | no | Defaults to "Portfolio Contact Form". |
+| `CONTACT_RECIPIENT_EMAIL` | yes | Where contact messages are delivered. |
+| `MAILTRAP_SANDBOX` | no | `true` to use the Email Testing inbox instead of real delivery. |
+| `MAILTRAP_TEST_INBOX_ID` | only if sandbox | Required when `MAILTRAP_SANDBOX=true`. |
+| `NEXT_PUBLIC_SITE_URL` | no | Leave empty to use the Vercel domain; set to the custom domain in production. |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact form
+
+The contact page posts to `/api/contact` ([route.ts](src/app/api/contact/route.ts)).
+The handler:
+
+- validates input via [validation.ts](src/lib/validation.ts),
+- drops bot submissions with a hidden honeypot (`company`) field,
+- escapes user input before building the email,
+- sends through Mailtrap using [mailtrap.ts](src/lib/mailtrap.ts).
+
+## Deployment
+
+This is a standard Next.js App Router app and deploys to **Vercel** with zero config.
+See [DEPLOYMENT.md](DEPLOYMENT.md) for the full guide, including environment
+variables and switching from the demo Vercel domain to a custom domain.
