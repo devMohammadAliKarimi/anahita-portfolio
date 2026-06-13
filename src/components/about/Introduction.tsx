@@ -33,7 +33,7 @@ const Introduction = () => {
                     </span>
                 </div>
 
-                <p className="text-dark/60 font-light text-sm md:text-xl leading-relaxed text-center md:text-left max-w-5xl">
+                <p className="text-dark font-light text-sm md:text-xl leading-relaxed text-center md:text-left max-w-5xl">
                     {`Inspired by this philosophy, Anahita Mouni is a marketer and creative
                     strategist with a background in graphic design and over a decade of experience.
                     Her journey as an immigrant shaped her resilience & adaptability, fueling her

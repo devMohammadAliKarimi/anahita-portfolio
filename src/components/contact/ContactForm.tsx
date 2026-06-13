@@ -88,7 +88,7 @@ const ContactForm = () => {
         }
     };
 
-    const inputClass = "w-full bg-transparent border-[3px] border-dark/40 rounded-md px-3 py-2 text-dark text-sm md:text-base placeholder-dark/30 focus:outline-none focus:border-dark/70 transition-colors";
+    const inputClass = "w-full bg-transparent border-[2px] border-dark/40 rounded-md px-3 py-2 text-dark text-sm md:text-base placeholder-dark/30 focus:outline-none focus:border-dark/70 transition-colors";
     const errorInputClass = "border-red-500/70 focus:border-red-500";
 
     return (
@@ -110,7 +110,7 @@ const ContactForm = () => {
                         </motion.span>
                     ))}
                 </h3>
-                <p className="text-dark/60 font-light text-sm md:text-xl leading-relaxed max-w-[345px]">
+                <p className="text-dark/85 font-light text-sm md:text-xl leading-relaxed max-w-[345px]">
                     {subWords.map((word, i) => (
                         <motion.span
                             key={i}

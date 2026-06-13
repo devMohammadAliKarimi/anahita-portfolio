@@ -4,7 +4,7 @@ import DecoratedSection from "../DecoratedSection";
 
 export default function ExploreWork() {
   return (
-    <DecoratedSection className="border-t-2 border-white" showLine={false}>
+    <DecoratedSection className="border-t-2 border-white/50" showLine={false}>
       <div className="mx-auto max-w-6xl px-6 py-10 md:py-16">
         <h2 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold text-white">
           Explore My Work

@@ -4,7 +4,7 @@ import DecoratedSection from "../DecoratedSection";
 
 export default function Milestones() {
   return (
-    <DecoratedSection className="border-t-2 border-white py-12 md:py-16" showLine={false}>
+    <DecoratedSection className="border-t-2 border-white/50 py-12 md:py-16" showLine={false}>
       <h2 className="text-center text-3xl md:text-5xl font-bold text-white mb-8 md:mb-12">
         Milestones
       </h2>

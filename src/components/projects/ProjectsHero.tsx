@@ -14,14 +14,14 @@ const ProjectsHero = () => {
                         <br />
                         Growth &amp; Measurable Results
                     </h3>
-                    <p className="text-dark/60 font-light text-sm md:text-lg leading-relaxed">
+                    <p className="text-dark font-light text-sm md:text-lg leading-relaxed">
                         This project reflects my approach to marketing as a balance of strategy,
                         insight, and execution. I focus on understanding the audience, defining
                         clear goals, and creating solutions that drive engagement and real impact.
                         My goal is not just to build something that looks strong, but to develop
                         work that supports growth, creates value, and delivers measurable results.
                     </p>
-                    <p className="text-dark/60 font-light text-sm md:text-lg leading-relaxed mt-4">
+                    <p className="text-dark/85 font-light text-sm md:text-lg leading-relaxed mt-4">
                         Below are selected projects that highlight this approach in practice:
                     </p>
                 </div>

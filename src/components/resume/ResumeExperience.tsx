@@ -13,18 +13,18 @@ const ResumeExperience = () => {
                         <div key={exp.company} className="border-b border-dark/10 pb-8 last:border-0 last:pb-0">
                             <div className="flex flex-col md:flex-row md:justify-between gap-1 mb-3">
                                 <div>
-                                    <p className="text-dark/80 font-semibold text-base md:text-lg">{exp.company}</p>
-                                    <p className="text-dark/50 italic text-sm md:text-base">{exp.role}</p>
+                                    <p className="text-dark font-semibold text-base md:text-lg">{exp.company}</p>
+                                    <p className="text-dark/85 italic text-sm md:text-base">{exp.role}</p>
                                 </div>
                                 <div className="flex flex-col md:items-end gap-1 shrink-0">
-                                    <p className="text-dark/70 text-xs md:text-sm">{exp.location}</p>
-                                    <p className="text-dark/50 text-xs md:text-sm">{exp.period}</p>
+                                    <p className="text-dark/75 text-xs md:text-sm">{exp.location}</p>
+                                    <p className="text-dark/55 text-xs md:text-sm">{exp.period}</p>
                                 </div>
                             </div>
                             <ul className="flex flex-col gap-1.5">
                                 {exp.bullets.map((bullet, i) => (
-                                    <li key={i} className="flex gap-2 text-dark/60 font-light text-sm md:text-base leading-relaxed">
-                                        <span className="mt-1.5 w-1 h-1 rounded-full bg-dark/40 shrink-0" />
+                                    <li key={i} className="flex gap-2 text-dark font-light text-sm md:text-base leading-relaxed">
+                                        <span className="mt-1.5 w-1 h-1 rounded-full bg-dark/70 shrink-0" />
                                         {bullet}
                                     </li>
                                 ))}

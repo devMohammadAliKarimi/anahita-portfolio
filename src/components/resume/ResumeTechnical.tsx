@@ -11,10 +11,10 @@ const ResumeTechnical = () => {
                 <div className="flex flex-col gap-4">
                     {skills.map((skill) => (
                         <div key={skill.category} className="flex flex-col md:flex-row gap-1 md:gap-3 border-b border-dark/10 pb-4 last:border-0 last:pb-0">
-                            <p className="text-dark/80 font-semibold text-base md:text-lg shrink-0 md:w-48">
+                            <p className="text-dark font-semibold text-base md:text-lg shrink-0 md:w-48">
                                 {skill.category}:
                             </p>
-                            <p className="text-dark/60 font-light text-base md:text-lg leading-relaxed">
+                            <p className="text-dark/85 font-light text-base md:text-lg leading-relaxed">
                                 {skill.detail}
                             </p>
                         </div>

@@ -34,7 +34,7 @@ export default function Hero() {
           >
             Bringing Marketing to life through
             <br className="hidden md:inline" />
-            creativity &amp; strategy
+            {" "} creativity &amp; strategy
           </h2>
 
           <p

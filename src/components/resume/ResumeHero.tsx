@@ -7,7 +7,7 @@ const ResumeHero = () => {
                 <h2 className="text-white font-bold text-4xl md:text-6xl text-center w-full tracking-wide mb-8 md:mb-12">
                     Resume / CV
                 </h2>
-                <p className="text-dark/70 font-light text-sm sm:text-lg md:text-xl leading-relaxed max-w-5xl">
+                <p className="text-dark font-light text-sm sm:text-lg md:text-xl leading-relaxed max-w-5xl">
                     MBA candidate specializing in Marketing with 10+ years of experience in creative
                     environments. Combines a background in graphic design with hands-on experience in
                     content creation, audience engagement, and brand development. Brings a strong

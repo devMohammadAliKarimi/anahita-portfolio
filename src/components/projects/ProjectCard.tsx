@@ -24,8 +24,8 @@ const ProjectCard: React.FC<IProjectCardProps> = ({
             <h4 className="text-dark font-bold text-base md:text-xl mb-1">
                 {number}. {title}
             </h4>
-            <p className="text-dark/50 italic text-xs md:text-sm mb-3">{subtitle}</p>
-            <p className="text-dark/60 font-light text-sm md:text-base leading-relaxed mb-4 max-w-2xl">
+            <p className="text-dark/70 italic text-xs md:text-sm mb-3">{subtitle}</p>
+            <p className="text-dark/90 font-light text-sm md:text-base leading-relaxed mb-4 max-w-2xl">
                 {description}
             </p>
             <Button
