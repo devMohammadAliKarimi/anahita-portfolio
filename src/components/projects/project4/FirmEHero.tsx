@@ -22,7 +22,7 @@ const FirmEHero = () => {
                     <p className="text-dark font-light text-sm md:text-xl leading-relaxed">
                         While the simulation included decisions across pricing, product, and production,
                         our primary focus was on branding and positioning. We used branding as the
-                        foundation for decision-making — aligning product features, pricing, and
+                        foundation for decision-making aligning product features, pricing, and
                         marketing efforts to create a consistent and differentiated brand across all
                         segments. Each round required us to adapt to competitor actions and changing
                         market conditions, reinforcing the importance of maintaining a clear and
@@ -50,7 +50,7 @@ const FirmEHero = () => {
                         which improved customer preference and drove sales growth, especially in the
                         utility segment with Euro. As we progressed, we recognized the need to better
                         align our messaging with customer expectations, particularly in the family
-                        segment — leading to a strategic shift from styling to a safety-focused
+                        segment leading to a strategic shift from styling to a safety-focused
                         positioning, strengthening our brand identity and improving product-market fit.
                     </p>
                     <p className="text-dark font-light text-sm md:text-xl leading-relaxed">

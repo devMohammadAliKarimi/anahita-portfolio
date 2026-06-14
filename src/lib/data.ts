@@ -185,7 +185,7 @@ export const experiences = [
     company: "Dunkin' Donuts LLC",
     location: "Waltham, MA",
     role: "Crew Member",
-    period: "11/2024 – 08/2021",
+    period: "11/2014 – 08/2021",
     bullets: [
       "Improved customer experience by increasing order accuracy and service efficiency, strengthening overall satisfaction and service quality",
       "Resolved up to 12 customer concerns per shift, improving service experience and contributing to customer retention",
