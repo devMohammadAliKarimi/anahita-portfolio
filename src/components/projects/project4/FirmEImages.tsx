@@ -3,7 +3,7 @@ import ImageGridClient from "@/components/ImageGridClient";
 
 const images = Array.from({ length: 8 }, (_, i) => ({
     id: i + 1,
-    src: `/images/projects/FirmE/FirmE${i + 1}.jpg`,
+    src: `/images/projects/FirmE/FirmE${i + 1}.webp`,
     alt: `Firm E project slide ${i + 1}`,
 }));
 
