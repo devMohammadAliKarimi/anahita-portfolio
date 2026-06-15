@@ -33,7 +33,7 @@ const myriad = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
-  title: "Anahita Mouni — Portfolio",
+  title: "Anahita Mouni | Portfolio",
   description:
     "Bringing marketing to life through creativity & strategy. Portfolio of Anahita Mouni.",
 };

@@ -3,7 +3,7 @@ import DecoratedSection from "@/components/DecoratedSection";
 import ContactForm from "@/components/contact/ContactForm";
 
 export const metadata: Metadata = {
-    title: "Contact Me — Anahita Mouni",
+    title: "Contact Me | Anahita Mouni",
     description: "Get in touch with Anahita Mouni. Let's build the future of marketing together.",
 };
 

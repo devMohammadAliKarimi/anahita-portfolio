@@ -6,7 +6,7 @@ import Introduction from '@/components/about/Introduction';
 
 
 export const metadata: Metadata = {
-    title: "About Me — Anahita Mouni",
+    title: "About Me | Anahita Mouni",
     description: "Marketer and creative strategist with a background in graphic design...",
 };
 

@@ -56,7 +56,7 @@ export const projects = [
     description:
       "Developed a marketing strategy focused on audience segmentation, content structure, and user journey design to improve engagement and support long-term growth.",
     buttonLabel: "View Project",
-    slug: "project-1",
+    slug: "crmii-marketing-strategy",
   },
   {
     number: 2,
@@ -65,7 +65,7 @@ export const projects = [
     description:
       "Co-developed a real-world challenge with a nonprofit (CRMII) to address visibility and visitor experience gaps; led a student team in a 48-hour innovation challenge, earning Best Non-Technical Solution.",
     buttonLabel: "View Project",
-    slug: "project-2",
+    slug: "DeisHacks-2026",
   },
   {
     number: 3,
@@ -74,7 +74,7 @@ export const projects = [
     description:
       "Analyzed Rivian's market position and operational challenges to identify data-driven strategies for growth and efficiency.",
     buttonLabel: "View Case Study",
-    slug: "project-3",
+    slug: "rivian-market-analysis",
   },
   {
     number: 4,
@@ -83,7 +83,7 @@ export const projects = [
     description:
       "A competitive marketing and branding simulation where teams shape brand positioning and compete for market leadership.",
     buttonLabel: "View Project",
-    slug: "project-4",
+    slug: "brand-strategy",
   },
 ];
 
