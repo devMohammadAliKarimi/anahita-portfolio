@@ -3,7 +3,7 @@ import GalleryGridClient from "./GalleryGridClient";
 
 const images = Array.from({ length: 14 }, (_, i) => ({
     id: i + 1,
-    src: `/images/gallery/G${i + 1}.jpg`,
+    src: `/images/gallery/G${i + 1}.webp`,
     alt: `Gallery item ${i + 1}`,
 }));
 

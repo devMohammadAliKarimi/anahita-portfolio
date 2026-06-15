@@ -14,7 +14,7 @@ const CharlesRiverBeforeAfter = () => {
                         <h3 className="text-dark/75 font-semibold text-4xl md:text-5xl">Before</h3>
                         <div className="relative w-full rounded-sm overflow-hidden">
                             <Image
-                                src="/images/projects/CharlesRiverMuseum/before.jpg"
+                                src="/images/projects/CharlesRiverMuseum/before.webp"
                                 alt="Website before redesign"
                                 width={600}
                                 height={900}
@@ -39,7 +39,7 @@ const CharlesRiverBeforeAfter = () => {
                         <h3 className="text-dark/75 font-semibold text-4xl md:text-5xl">After</h3>
                         <div className="relative w-full rounded-sm overflow-hidden">
                             <Image
-                                src="/images/projects/CharlesRiverMuseum/after.jpg"
+                                src="/images/projects/CharlesRiverMuseum/after.webp"
                                 alt="Website after redesign"
                                 width={600}
                                 height={900}
