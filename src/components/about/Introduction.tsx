@@ -34,15 +34,36 @@ const Introduction = () => {
                 </div>
 
                 <p className="text-dark font-light text-sm md:text-xl leading-relaxed text-center md:text-left max-w-5xl">
-                    {`Inspired by this philosophy, Anahita Mouni is a marketer and creative
-                    strategist with a background in graphic design and over a decade of experience.
-                    Her journey as an immigrant shaped her resilience & adaptability, fueling her
-                    passion for blending design thinking with data-driven insights to craft meaningful
-                    campaigns. She is currently expanding her expertise as an MBA candidate at
-                    Brandeis International Business School, while consulting in digital marketing
-                    and coordinating marketing projects. Looking ahead, she is eager to continue
-                    growing as a strategist, creating innovative brand experiences that inspire
-                    audiences, foster connection, and drive measurable impact.`}
+                    This philosophy has shaped my thinking about marketing, branding, and business.
+                </p>
+
+                <p className="text-dark font-light text-sm md:text-xl leading-relaxed text-center md:text-left max-w-5xl">
+                    My professional journey began in graphic design, where I learned that design
+                    is more than aesthetics. It is a language that transforms ideas into visual
+                    experiences and helps brands communicate with clarity and purpose. As I worked
+                    with clients, marketing teams, and businesses, I became increasingly curious
+                    about the people behind those interactions. I wanted to know what motivates them,
+                    how they make decisions, and what creates meaningful connections between brands and their audiences.
+                </p>
+
+                <p className="text-dark font-light text-sm md:text-xl leading-relaxed text-center md:text-left max-w-5xl">
+                    That curiosity led me to marketing.
+                    While design taught me how to communicate visually, marketing
+                    taught me how to understand people. I became fascinated by consumer behavior,
+                    brand strategy, and how organizations create value through meaningful customer
+                    experiences. Over time, I realized that the most effective solutions were built
+                    at the intersection of creativity, strategy, and insight.
+                    Today, as an MBA candidate in Marketing at Brandeis International Business School,
+                    I am expanding my expertise in marketing strategy, branding, analytics, leadership,
+                    and consumer behavior. I enjoy combining creative thinking with data-driven decision-making
+                    to develop customer-focused solutions that strengthen brands, engage audiences, and support
+                    business growth.
+                </p>
+
+                <p className="text-dark font-light text-sm md:text-xl leading-relaxed text-center md:text-left max-w-5xl">
+                    As I continue my journey, I aspire to grow as a marketing strategist and leader.
+                    I want to transform insights into action, build meaningful brand experiences,
+                    and create lasting impact for both organizations and the people they serve.
                 </p>
 
             </div>

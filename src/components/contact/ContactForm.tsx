@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Toast, { ToastVariant } from "./Toast";
 import { validateContactForm, ContactFormErrors } from "@/lib/validation";
 
-const animatedWords = "I'd like to hear from you!".split(" ");
+const animatedWords = "I'd Like to Hear From You!".split(" ");
 const subWords = "Please use the contact form if you have any questions or if you would simply like to say hello.".split(" ");
 
 const wordVariants = {

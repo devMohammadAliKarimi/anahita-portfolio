@@ -32,9 +32,9 @@ export default function Hero() {
               text-white
             "
           >
-            Bringing Marketing to life through
+            Bringing Marketing to Life Through
             <br className="hidden md:inline" />
-            {" "} creativity &amp; strategy
+            {" "} Creativity &amp; Strategy
           </h2>
 
           <p

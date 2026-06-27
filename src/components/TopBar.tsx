@@ -28,7 +28,7 @@ const TopBar = () => {
           {isHomepage ? (
             <div className="flex items-center gap-1 sm:gap-2 text-dark">
               <span className="hidden sm:inline text-[13px]">
-                Let&rsquo;s Build the Future of marketing Together !
+                Let&rsquo;s Build the Future of Marketing Together!
               </span>
               <span className="inline sm:hidden text-[10px] opacity-80">
                 Build the Future Together!

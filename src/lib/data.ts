@@ -34,7 +34,7 @@ export const honors = [
   },
   {
     id: 3,
-    title: "Forth Student Graphic Book of the Year Awards",
+    title: "Fourth Student Graphic Book of the Year Awards",
     subtitle: "Selected Work: Published Posters",
     location: "Tehran, Iran",
     date: "01/2010",
