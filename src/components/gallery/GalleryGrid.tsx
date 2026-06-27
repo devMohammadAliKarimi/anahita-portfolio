@@ -18,7 +18,7 @@ const GalleryGrid = () => {
 
                 <div className="flex flex-col gap-4">
                     <h3 className="text-white font-semibold text-xl md:text-3xl max-w-md">
-                        Where Ideas Come to Life through Design & Storytelling
+                        Where Ideas Come to Life Through Design & Storytelling
                     </h3>
                     <p className="text-dark font-light text-sm md:text-xl leading-relaxed">
                         {`Over the years, I've worked on a variety of design projects across print and

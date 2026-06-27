@@ -26,7 +26,7 @@ const Introduction = () => {
 
                 <div className="text-center md:text-left max-w-[43rem]">
                     <p className="text-white italic font-normal text-xl md:text-4xl leading-relaxed">
-                        {`"The aim of marketing is to know & understand the customer so well the product or service fits him and sells itself."`}
+                        {`"The aim of marketing is to know & understand the customer so well the product or service fits him & sells itself."`}
                     </p>
                     <span className="block mt-2 text-white text-xs md:text-base font-normal not-italic">
                         Peter Drucker
