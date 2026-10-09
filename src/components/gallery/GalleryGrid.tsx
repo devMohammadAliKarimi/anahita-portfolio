@@ -21,19 +21,19 @@ const GalleryGrid = () => {
                         Where Ideas Come to Life Through Design & Storytelling
                     </h3>
                     <p className="text-dark font-light text-sm md:text-xl leading-relaxed">
-                        {`Over the years, I've worked on a variety of design projects across print and
-                        digital media, shaping how I think about creativity and problem-solving. From
-                        developing brand visuals to designing marketing materials, each project has been
-                        an opportunity to turn ideas into meaningful visuals.`}
+                        {`Over the years, I've worked on a variety of design projects across
+                        print and digital media, shaping how I think about creativity and
+                        problem-solving. From developing brand visuals to designing marketing
+                        materials, each project has been an opportunity to turn ideas into
+                        meaningful visual communication.`}
                     </p>
                     <p className="text-dark font-light text-sm md:text-xl leading-relaxed">
-                        {`These experiences have helped me understand that design is not just about
-                        aesthetics, but about creating clear communication and building a connection
-                        with the audience. These are selected works that represent a range of my design
-                        projects across print and digital media.`}
+                        {`These experiences have taught me that design is not
+                        just about aesthetics, but about communicating clearly
+                        and creating a connection with the audience.`}
                     </p>
                     <p className="text-dark/90 font-light text-sm md:text-lg">
-                        Selected works showcasing my approach to design across print and digital media.
+                        Selected works showcasing my approach to design across a range of creative projects.
                     </p>
                 </div>
 

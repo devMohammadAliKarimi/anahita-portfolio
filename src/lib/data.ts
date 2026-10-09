@@ -117,7 +117,7 @@ export const audiences = [
 
 export const education = [
   {
-    school: "Brandeis International Business School",
+    school: "Brandeis School of Business & Economics",
     location: "Waltham, MA",
     degree: "Candidate for Master of Business Administration | Concentration in Marketing",
     period: "08/2024 – 12/2026",
@@ -138,70 +138,125 @@ export const education = [
 
 export const experiences = [
   {
+    company: "WCVB Channel 5 | Hearst Television",
+    location: "Needham, MA",
+    role: "Creative Services Intern",
+    period: "09/2026 – Present",
+    bullets: [
+      "Write promotional copy and topical content for NewsCenter 5 and Chronicle, applying Associated Press (AP) style and broadcast writing principles while supporting audience engagement and station brand messaging",
+      "Support promotional and commercial productions, including in-house and on-location shoots, contributing to content development and creative execution from planning through production",
+      "Contribute to public service announcement (PSA) production and community-focused content, collaborating with the Creative Services team on broadcast and digital materials",
+      "Develop knowledge of broadcast marketing, promotional writing, brand voice, and audience-focused storytelling in a professional television environment",
+    ],
+  },
+  {
+    company: "Boston Event Guide",
+    location: "Needham, MA",
+    role: "Digital Content & Marketing Specialist Intern",
+    period: "07/2026 – Present",
+    bullets: [
+      "Increased average Weekend Roundup views by 350%+ through audience-focused content creation, SEO optimization, strategic event curation, internal linking, and promotional copy",
+      "Improved content discoverability by conducting SEO keyword research and applying AEO/GEO practices across blog posts, event listings, and website content",
+      "Analyzed website traffic, audience engagement, conversions, and content KPIs to identify performance trends and inform content optimization decisions",
+      "Managed content publishing and website updates through Joomla CMS, optimizing metadata, internal links, content structure, and on-page elements for search visibility and user experience",
+    ],
+  },
+  {
     company: "Charles River Museum of Industry & Innovation",
     location: "Waltham, MA",
     role: "Volunteer Marketing Consultant",
     period: "09/2025 – 05/2026",
     bullets: [
-      "Developed a digital marketing strategy to strengthen brand visibility and audience engagement",
-      "Built audience segmentation frameworks to enable more targeted outreach and improve campaign effectiveness",
-      "Redesigned CRMII's brand guidelines to ensure consistency across touchpoints and enhance credibility with visitors, partners, and funders",
-      "Restructured website content and navigation to improve storytelling and user experience, contributing to increased audience engagement and stronger interest from potential funders",
+      "Developed a digital marketing strategy to strengthen brand visibility, positioning, and audience engagement",
+      "Built audience segmentation frameworks to support targeted outreach based on visitor needs, interests, and engagement opportunities",
+      "Redesigned CRMII’s brand guidelines to improve consistency across digital and print touchpoints and strengthen credibility with visitors, partners, and funders",
+      "Restructured website content and navigation to improve brand storytelling and user experience while supporting engagement with visitors and potential funders",
     ],
   },
   {
     company: "DeisHacks 2026 | Brandeis University",
     location: "Waltham, MA",
-    role: "Board Fellow | DeisHacks 2026",
+    role: "Board Fellow",
     period: "09/2025 – 02/2026",
     bullets: [
-      "Co-developed a high-impact, real-world challenge with a nonprofit partner for student teams to tackle",
-      "Guided student teams through a 48-hour challenge, supporting problem-solving, engagement, and collaboration with the nonprofit",
-      "Coordinated an on-site museum experience to deepen teams' understanding of the nonprofit's mission, audience, and key challenges",
+      "Partnered with a nonprofit organization to identify a real-world business challenge, translate stakeholder needs into project requirements, and define a clear challenge for student teams",
+      "Mentored student teams through a 48-hour innovation challenge, providing strategic feedback and evaluating solutions based on stakeholder needs, feasibility, and project objectives",
+      "Coordinated an on-site museum visit to help student teams better understand the organization’s mission, audiences, and business challenges",
     ],
   },
   {
-    company: "Comprint Inc. | Screen Printing & Production",
+    company: "Comprint Inc.",
     location: "Waltham, MA",
-    role: "Graphic Designer",
+    role: "Graphic Artist",
     period: "10/2021 – 08/2024",
     bullets: [
-      "Improved production efficiency by tracking lead times three weeks in advance, accelerating workflow and enhancing client satisfaction",
-      "Ensured color accuracy and brand consistency across 300+ printed projects, contributing to higher campaign quality and repeat business",
-      "Coordinated closely with sales, account managers, and production teams to streamline approvals and reduce turnaround time",
+      "Prepared and optimized customer artwork for screen-printing production, ensuring technical accuracy and production readiness",
+      "Improved production efficiency by increasing artwork readiness from approximately 5 days to 3 weeks ahead of production schedules, reducing workflow bottlenecks and supporting on-time delivery",
+      "Maintained color accuracy and brand consistency across 300+ print projects, ensuring high-quality execution of client-branded materials",
+      "Collaborated with sales, account management, and production teams to coordinate approvals, resolve production issues, and streamline workflows",
     ],
   },
   {
-    company: "BBC Printing & Products Inc. | Print Production & Design",
+    company: "BBC Printing and Products Inc.",
     location: "Waltham, MA",
-    role: "Graphic Designer",
+    role: "Graphic Designer & Customer Experience Specialist",
     period: "02/2017 – 11/2020",
     bullets: [
-      "Consulted with clients to define design goals and present company offerings, supporting stronger sales conversions and client retention",
-      "Designed multicultural menus that increased customer interest and engagement",
+      "Assisted showroom and phone customers in selecting design and print products that matched their needs, while promoting relevant services and supporting a positive customer experience",
+      "Designed multicultural menus and promotional materials tailored to diverse audiences, strengthening visual communication and audience appeal",
+      "Prepared production-ready artwork and coordinated with print teams to ensure technical accuracy, quality standards, and on-time delivery",
     ],
   },
   {
-    company: "Dunkin' Donuts LLC",
+    company: "Dunkin’ Donuts LLC",
+    location: "Waltham, MA",
+    role: "Assistant Manager",
+    period: "02/2018 – 09/2021",
+    bullets: [
+      "Supported daily store operations, staff scheduling, training, inventory, and cash management while maintaining service and quality standards",
+      "Coordinated shifts, delegated responsibilities, and resolved customer concerns while supporting the store manager with day-to-day operations",
+    ],
+  },
+  {
+    company: "Dunkin’ Donuts LLC",
+    location: "Waltham, MA",
+    role: "Shift Lead",
+    period: "02/2017 – 01/2018",
+    bullets: [
+      "Led team members during daily shifts, prioritizing workflows to maintain efficiency, product quality, and timely service",
+      "Trained and supported team members while coordinating front-end operations and maintaining a positive customer experience",
+    ],
+  },
+  {
+    company: "Dunkin’ Donuts LLC",
     location: "Waltham, MA",
     role: "Crew Member",
-    period: "11/2014 – 08/2021",
+    period: "02/2014 – 01/2017",
     bullets: [
-      "Improved customer experience by increasing order accuracy and service efficiency, strengthening overall satisfaction and service quality",
-      "Resolved up to 12 customer concerns per shift, improving service experience and contributing to customer retention",
+      "Provided fast, accurate service in a high-volume environment while maintaining product and service standards",
+      "Assisted customers at the point of sale, handled transactions, and addressed customer needs to support a positive in-store experience",
+    ],
+  },
+  {
+    company: "Tolue Advertising Group (TAG Agency)",
+    location: "Tehran, Iran",
+    role: "Art Director",
+    period: "04/2013 – 09/2014",
+    bullets: [
+      "Led creative development of visual concepts and marketing materials, providing design direction and ensuring alignment with client brand standards",
+      "Translated brand strategies into cohesive visual identities and creative concepts across digital and print channels",
+      "Collaborated with marketing and creative teams to develop integrated advertising materials supporting client brand and promotional objectives",
     ],
   },
   {
     company: "Tolue Advertising Group (TAG Agency)",
     location: "Tehran, Iran",
     role: "Creative Designer",
-    period: "04/2012 – 09/2014",
+    period: "03/2012 – 03/2013",
     bullets: [
-      "Translated brand strategies into cohesive visual systems and marketing assets, enhancing brand positioning and visibility",
-      "Collaborated with marketing teams to support multi-channel campaigns, contributing to measurable performance improvements and ROI growth",
-      "Designed and executed marketing materials across 14 campaigns, increasing audience engagement and campaign effectiveness",
-      "Designed a user-focused website interface for a professional networking platform, improving usability and digital interaction",
-      "Created a branded planner calendar for Qatar Airways, ensuring alignment with brand standards and consistency across touchpoints",
+      "Designed digital and print marketing assets for multiple clients, translating creative briefs and brand requirements into audience-focused visual communications",
+      "Designed a website interface for a professional networking platform, applying visual hierarchy and user-centered design principles while collaborating with a web developer to translate designs into a functional digital experience",
+      "Created a branded planner for Qatar Airways, maintaining consistency with established brand guidelines and visual identity",
     ],
   },
 ];
@@ -210,30 +265,58 @@ export const certifications = [
   {
     org: "HubSpot Academy",
     location: "Online",
-    description: "HubSpot Academy is an online platform that delivers globally recognized certifications and builds practical skills in marketing, sales, and CRM tools.",
+    description:
+      "HubSpot Academy is an online learning platform that delivers globally recognized certifications and builds practical skills in digital marketing, sales, CRM, and business growth.",
     items: [
       {
-        name: "SEO Certification",
-        period: "05/2026 – 05/2027",
-        bullets: ["Covered website optimization, keyword research, on-page SEO, technical SEO, and content strategy to improve organic visibility"],
+        name: "Email Marketing Certified",
+        period: "Issued 09/2026",
+        bullets: [
+          "Covered email strategy, segmentation, personalization, automation, deliverability, and performance measurement to create effective email marketing campaigns",
+        ],
       },
       {
-        name: "Inbound Marketing",
-        period: "04/2026 – 04/2028",
-        bullets: ["Focused on attracting customers through helpful content and digital channels instead of traditional advertising"],
+        name: "HubSpot Reporting Certified",
+        period: "Issued 07/2026",
+        bullets: [
+          "Developed skills in building reports, analyzing marketing and sales data, tracking performance, and using data insights to support decision-making",
+        ],
       },
       {
-        name: "Content Marketing",
-        period: "04/2026 – 04/2028",
-        bullets: ["Developed skills in creating targeted content, nurturing leads, and using automation to attract, engage, and convert customers"],
+        name: "Social Media Certified",
+        period: "Issued 07/2026",
+        bullets: [
+          "Covered social media strategy, content planning, audience engagement, social listening, advertising, and performance measurement across digital platforms",
+        ],
+      },
+      {
+        name: "SEO Certified",
+        period: "Issued 05/2026",
+        bullets: [
+          "Covered website optimization, keyword research, on-page SEO, technical SEO, and content strategy to improve organic search visibility",
+        ],
+      },
+      {
+        name: "Content Marketing Certified",
+        period: "Issued 04/2026",
+        bullets: [
+          "Focused on developing audience-centered content strategies, creating valuable digital content, storytelling, content promotion, and measuring performance",
+        ],
+      },
+      {
+        name: "Inbound Certified",
+        period: "Issued 04/2026",
+        bullets: [
+          "Covered inbound methodology, buyer personas, customer journey mapping, and strategies for attracting, engaging, and supporting audiences throughout the customer experience",
+        ],
       },
     ],
   },
   {
-    org: "University of Massachusetts",
+    org: "University of Massachusetts Lowell",
     location: "Lowell, MA",
     description: "Web Design & Development",
-    period: "09/2021 – 12/2022",
+    period: "Issued 12/2022",
     items: [],
   },
 ];
@@ -241,23 +324,21 @@ export const certifications = [
 export const skills = [
   {
     category: "Marketing & Branding",
-    detail: "Brand Campaign Support, Go-to-Market Execution, Audience Segmentation, Social Media & Community Engagement, Content Coordination",
+    detail:
+      "Brand Campaign Support, Go-to-Market Execution, Audience Segmentation, Social Media & Community Engagement, Content Coordination",
   },
   {
     category: "Digital & Analytics",
     detail: "Google Analytics, SEO, Data Visualization, Excel",
   },
   {
-    category: "Design & Web",
-    detail: "Adobe Creative Suite (Photoshop, Illustrator, InDesign), Canva, Figma, Print & Digital Production, WordPress, HTML/CSS",
+    category: "Design, Video & Web",
+    detail:
+      "Adobe Creative Suite (Photoshop, Illustrator, InDesign, Premiere Pro, After Effects), Canva, Figma, CMS (Joomla, WordPress), HTML/CSS, Print & Digital Production",
   },
   {
     category: "Data Tools",
     detail: "Python (Basic), R, SQL",
-  },
-  {
-    category: "Professional Strengths",
-    detail: "Highly Organized, Detail-Oriented, Cross-Functional Collaboration, Project Coordination, Proactive Ownership, Strong Communication",
   },
 ];
 

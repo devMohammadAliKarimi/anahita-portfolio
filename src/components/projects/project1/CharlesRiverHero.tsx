@@ -3,7 +3,7 @@ import DecoratedSection from "@/components/DecoratedSection";
 const CharlesRiverHero = () => {
     return (
         <DecoratedSection lineClassName="top-8 h-16 md:top-16">
-            <div className="mx-auto max-w-6xl px-6 md:px-16 pt-8 md:pt-14 pb-10 md:pb-16">
+            <div className="mx-auto max-w-6xl px-6 md:px-16 pt-8 md:pt-14 pb-5">
 
                 <h2 className="text-dark/75 font-bold text-lg md:text-2xl w-full tracking-wide">
                     1. From Audience Insight to Engagement

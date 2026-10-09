@@ -8,12 +8,11 @@ const ResumeHero = () => {
                     Resume / CV
                 </h2>
                 <p className="text-dark font-light text-sm sm:text-lg md:text-xl leading-relaxed max-w-5xl">
-                    MBA candidate specializing in Marketing with 10+ years of experience in creative
-                    environments. Combines a background in graphic design with hands-on experience in
-                    content creation, audience engagement, and brand development. Brings a strong
-                    understanding of how ideas move from concept to execution, with a focus on creating
-                    meaningful and engaging user experiences. Particularly interested in product, brand,
-                    and marketing initiatives that connect strategy with creative execution.
+                    MBA candidate specializing in Marketing with 10+ years of experience in creative and design-driven environments. Combines a
+                    strong foundation in graphic design with hands-on expertise in digital content, audience engagement, and brand development.
+                    Brings a strategic understanding of how ideas move from concept to execution, creating meaningful experiences that connect with
+                    audiences and support business goals. Particularly interested in product, brand, and digital marketing initiatives that bring together
+                    strategy, creativity, and measurable impact.
                 </p>
             </div>
         </DecoratedSection>

@@ -10,7 +10,10 @@ const ResumeExperience = () => {
                 </h2>
                 <div className="flex flex-col gap-8">
                     {experiences.map((exp) => (
-                        <div key={exp.company} className="border-b border-dark/10 pb-8 last:border-0 last:pb-0">
+                        <div
+                            key={`${exp.company}-${exp.role}`}
+                            className="border-b border-dark/10 pb-8 last:border-0 last:pb-0"
+                        >
                             <div className="flex flex-col md:flex-row md:justify-between gap-1 mb-3">
                                 <div>
                                     <p className="text-dark font-semibold text-base md:text-lg">{exp.company}</p>

@@ -4,7 +4,7 @@ import DecoratedSection from "@/components/DecoratedSection";
 const CharlesRiverFunnel = () => {
     return (
         <DecoratedSection showLine={false}>
-            <div className="mx-auto max-w-6xl px-6 md:px-16 py-8 md:py-12">
+            <div className="mx-auto max-w-6xl px-6 md:px-16">
 
                 <p className="text-dark font-light text-sm md:text-xl leading-relaxed max-w-5xl mb-10">
                     To connect audience understanding with action, I structured the experience
