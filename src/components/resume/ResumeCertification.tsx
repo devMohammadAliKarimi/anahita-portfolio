@@ -15,7 +15,20 @@ const ResumeCertification = () => {
                                 <p className="text-dark font-semibold text-base md:text-lg">{cert.org}</p>
                                 <p className="text-dark/85 text-sm md:text-base shrink-0">{cert.location}</p>
                             </div>
-                            <p className="text-dark/85 italic text-sm md:text-base mb-4">{cert.description}</p>
+                            {/* <p className="text-dark/85 italic text-sm md:text-base mb-4">{cert.description}</p> */}
+
+                            <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-1 mb-4">
+                                <p className="text-dark/85 italic text-sm md:text-base">
+                                    {cert.description}
+                                </p>
+
+                                {cert.period && (
+                                    <p className="text-dark/55 text-sm shrink-0 md:text-right">
+                                        {cert.period}
+                                    </p>
+                                )}
+                            </div>
+
                             {cert.items.length > 0 && (
                                 <div className="flex flex-col gap-4">
                                     {cert.items.map((item) => (
@@ -34,9 +47,9 @@ const ResumeCertification = () => {
                                     ))}
                                 </div>
                             )}
-                            {cert.period && (
+                            {/* {cert.period && (
                                 <p className="text-dark/55 text-sm md:text-sm mt-1">{cert.period}</p>
-                            )}
+                            )} */}
                         </div>
                     ))}
                 </div>

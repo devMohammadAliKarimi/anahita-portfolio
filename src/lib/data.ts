@@ -143,10 +143,10 @@ export const experiences = [
     role: "Creative Services Intern",
     period: "09/2026 – Present",
     bullets: [
-      "Write promotional copy and topical content for NewsCenter 5 and Chronicle, applying Associated Press (AP) style and broadcast writing principles while supporting audience engagement and station brand messaging",
-      "Support promotional and commercial productions, including in-house and on-location shoots, contributing to content development and creative execution from planning through production",
-      "Contribute to public service announcement (PSA) production and community-focused content, collaborating with the Creative Services team on broadcast and digital materials",
-      "Develop knowledge of broadcast marketing, promotional writing, brand voice, and audience-focused storytelling in a professional television environment",
+      "Write and develop 15‑ to 30‑second on‑air tease scripts for NewsCenter 5 and Chronicle, emphasizing audience engagement, compelling storytelling, and consistent station brand voice",
+      "Draft anchor scripts and transcripts in collaboration with producers, supporting tease development and understanding how written copy guides final on‑air delivery",
+      "Assist with broadcast production workflows, including concept development, scriptwriting, editing support, creative review, and preparation for air",
+      "Build hands‑on skills in Adobe Premiere Pro and After Effects while learning newsroom editing workflows, video production techniques, and broadcast production standards",
     ],
   },
   {
@@ -155,7 +155,7 @@ export const experiences = [
     role: "Digital Content & Marketing Specialist Intern",
     period: "07/2026 – Present",
     bullets: [
-      "Increased average Weekend Roundup views by 350%+ through audience-focused content creation, SEO optimization, strategic event curation, internal linking, and promotional copy",
+      "Increased average Weekend Roundup views by 282% through SEO optimized content structures, strategic event curation, audience focused headlines, and improved internal linking",
       "Improved content discoverability by conducting SEO keyword research and applying AEO/GEO practices across blog posts, event listings, and website content",
       "Analyzed website traffic, audience engagement, conversions, and content KPIs to identify performance trends and inform content optimization decisions",
       "Managed content publishing and website updates through Joomla CMS, optimizing metadata, internal links, content structure, and on-page elements for search visibility and user experience",
@@ -210,53 +210,55 @@ export const experiences = [
   {
     company: "Dunkin’ Donuts LLC",
     location: "Waltham, MA",
-    role: "Assistant Manager",
-    period: "02/2018 – 09/2021",
-    bullets: [
-      "Supported daily store operations, staff scheduling, training, inventory, and cash management while maintaining service and quality standards",
-      "Coordinated shifts, delegated responsibilities, and resolved customer concerns while supporting the store manager with day-to-day operations",
-    ],
-  },
-  {
-    company: "Dunkin’ Donuts LLC",
-    location: "Waltham, MA",
-    role: "Shift Lead",
-    period: "02/2017 – 01/2018",
-    bullets: [
-      "Led team members during daily shifts, prioritizing workflows to maintain efficiency, product quality, and timely service",
-      "Trained and supported team members while coordinating front-end operations and maintaining a positive customer experience",
-    ],
-  },
-  {
-    company: "Dunkin’ Donuts LLC",
-    location: "Waltham, MA",
-    role: "Crew Member",
-    period: "02/2014 – 01/2017",
-    bullets: [
-      "Provided fast, accurate service in a high-volume environment while maintaining product and service standards",
-      "Assisted customers at the point of sale, handled transactions, and addressed customer needs to support a positive in-store experience",
-    ],
-  },
-  {
-    company: "Tolue Advertising Group (TAG Agency)",
-    location: "Tehran, Iran",
-    role: "Art Director",
-    period: "04/2013 – 09/2014",
-    bullets: [
-      "Led creative development of visual concepts and marketing materials, providing design direction and ensuring alignment with client brand standards",
-      "Translated brand strategies into cohesive visual identities and creative concepts across digital and print channels",
-      "Collaborated with marketing and creative teams to develop integrated advertising materials supporting client brand and promotional objectives",
+    positions: [
+      {
+        role: "Assistant Manager",
+        period: "02/2018 – 09/2021",
+        bullets: [
+          "Supported daily store operations, staff scheduling, training, inventory, and cash management while maintaining service and quality standards",
+          "Coordinated shifts, delegated responsibilities, and resolved customer concerns while supporting the store manager with day-to-day operations",
+        ],
+      },
+      {
+        role: "Shift Lead",
+        period: "02/2017 – 01/2018",
+        bullets: [
+          "Led team members during daily shifts, prioritizing workflows to maintain efficiency, product quality, and timely service",
+          "Trained and supported team members while coordinating front-end operations and maintaining a positive customer experience",
+        ],
+      },
+      {
+        role: "Crew Member",
+        period: "02/2014 – 01/2017",
+        bullets: [
+          "Provided fast, accurate service in a high-volume environment while maintaining product and service standards",
+          "Assisted customers at the point of sale, handled transactions, and addressed customer needs to support a positive in-store experience",
+        ],
+      },
     ],
   },
   {
     company: "Tolue Advertising Group (TAG Agency)",
     location: "Tehran, Iran",
-    role: "Creative Designer",
-    period: "03/2012 – 03/2013",
-    bullets: [
-      "Designed digital and print marketing assets for multiple clients, translating creative briefs and brand requirements into audience-focused visual communications",
-      "Designed a website interface for a professional networking platform, applying visual hierarchy and user-centered design principles while collaborating with a web developer to translate designs into a functional digital experience",
-      "Created a branded planner for Qatar Airways, maintaining consistency with established brand guidelines and visual identity",
+    positions: [
+      {
+        role: "Art Director",
+        period: "04/2013 – 09/2014",
+        bullets: [
+          "Led creative development of visual concepts and marketing materials, providing design direction and ensuring alignment with client brand standards",
+          "Translated brand strategies into cohesive visual identities and creative concepts across digital and print channels",
+          "Collaborated with marketing and creative teams to develop integrated advertising materials supporting client brand and promotional objectives",
+        ],
+      },
+      {
+        role: "Creative Designer",
+        period: "03/2012 – 03/2013",
+        bullets: [
+          "Designed digital and print marketing assets for multiple clients, translating creative briefs and brand requirements into audience-focused visual communications",
+          "Designed a website interface for a professional networking platform, applying visual hierarchy and user-centered design principles while collaborating with a web developer to translate designs into a functional digital experience",
+          "Created a branded planner for Qatar Airways, maintaining consistency with established brand guidelines and visual identity",
+        ],
+      },
     ],
   },
 ];
